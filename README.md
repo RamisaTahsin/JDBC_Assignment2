@@ -12,4 +12,4 @@ INSERT INTO `sqlandjava`.`cars` (`car_id`, `brand`, `color`) VALUES ('2', 'Saab'
 INSERT INTO `sqlandjava`.`cars` (`car_id`, `brand`, `color`) VALUES ('3', 'Audi', 'Red');
 INSERT INTO `sqlandjava`.`cars` (`car_id`, `brand`, `color`) VALUES ('4', 'Ford', 'Green');
 
-GRANT SELECT ON sqlandjava.people TO ramisa@localhost;
+GRANT SELECT ON sqlandjava.cars TO ramisa@localhost;
