@@ -4,7 +4,7 @@ SQL Code:
 CREATE TABLE `sqlandjava`.`cars` (
   `car_id` INT NOT NULL,
   `brand` VARCHAR(45) NOT NULL,
-  `color` VARCHAR(45) NULL,
+  `color` VARCHAR(45) NOT NULL,
   PRIMARY KEY (`car_id`));
 
 INSERT INTO `sqlandjava`.`cars` (`car_id`, `brand`, `color`) VALUES ('1', 'Volvo', 'Black');
